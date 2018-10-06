@@ -1,0 +1,10 @@
+PImage pizza;
+
+void setup(){
+  size(3000,3000);
+  pizza=loadImage("fishey");
+}
+
+void draw(){
+  image(pizza,mouseX,mouseY);
+}
